@@ -1,5 +1,8 @@
-﻿namespace WebApi.Types;
+﻿using WebApi.Authorization;
 
+namespace WebApi.Types;
+
+[CanAccess]
 public class Item
 {
     [GraphQLType(typeof(NonNullType<IdType>))]

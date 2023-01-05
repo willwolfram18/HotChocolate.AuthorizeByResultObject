@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Authorization\" />
     <Folder Include="Types\" />
   </ItemGroup>
 
